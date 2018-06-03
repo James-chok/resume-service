@@ -17,9 +17,9 @@ public class ConnectSQL {
 	    } catch (ClassNotFoundException e) {
 	        e.printStackTrace();
 	    }
-		String url = "jdbc:mysql://gz-cdb-70c1yxw0.sql.tencentcdb.com:62558/resume?useUnicode=true&characterEncoding=utf-8&useSSL=false";  // ���ݿ���Ϣ�����Ϊdatabase����
-		String username = "root";  // ���ݿ��˻���һ��Ϊroot
-		String password = "wangzihao123";  // ���ݿ�����		   
+		String url = "jdbc:mysql://"数据库地址":"数据库端口号"/resume?useUnicode=true&characterEncoding=utf-8&useSSL=false";  // ���ݿ���Ϣ�����Ϊdatabase����
+		String username = "数据库账号";  // ���ݿ��˻���һ��Ϊroot
+		String password = "数据库密码";  // ���ݿ�����		   
 		try{
 		    conn = DriverManager.getConnection(url, username, password);  // ��������
 	    } catch (SQLException e) {
