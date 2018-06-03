@@ -1,0 +1,12 @@
+com/Control/Server.class
+com/Control/DeleteResume.class
+com/Control/ConnectSQL.class
+com/web/controller/Resume.class
+com/Control/UploadResume.class
+com/Model/UserInfo.class
+com/Model/ResumeInfo.class
+com/Control/Login.class
+com/Control/DownloadResume.class
+com/Control/Regist.class
+com/Model/AdminInfo.class
+com/web/controller/User.class
